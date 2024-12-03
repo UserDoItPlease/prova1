@@ -16,6 +16,7 @@ class Program
             Console.WriteLine(*puntatore+"\n");         // Dereferenziamento per stampare il valore a cui punta
             Console.WriteLine((IntPtr)puntatore2);  // Usato IntPtr per stampare l'indirizzo
             Console.WriteLine(*puntatore2);
+            
         }
     }
 }
